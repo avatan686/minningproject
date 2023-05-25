@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 1
+  m_Fog: 0
   m_FogColor: {r: 0.49056602, g: 0.27547616, b: 0.1453186, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.2
@@ -177,7 +177,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &154319249
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -251,7 +251,7 @@ Transform:
   m_GameObject: {fileID: 154319248}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.8132, y: 1.8132, z: 1.8132}
+  m_LocalScale: {x: 3.3837938, y: 3.3837938, z: 3.3837938}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2753,7 +2753,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 1423701831}
-  m_MoveSpeed: 1
+  m_MoveSpeed: 1.5
   m_EnableStrafe: 1
   m_EnableFly: 0
   m_UseGravity: 1
@@ -4504,6 +4504,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lei
       objectReference: {fileID: 0}
+    - target: {fileID: 6174365675376167480, guid: 5fd26b55c2cc80941b4aa4d402115bf9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5fd26b55c2cc80941b4aa4d402115bf9, type: 3}
 --- !u!114 &3621981467121930864
@@ -4746,7 +4751,7 @@ PrefabInstance:
     - target: {fileID: 7216103812604564262, guid: aa0258dfce5426e44a7fd2c3d9fcb2bd,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7754512456213702406, guid: aa0258dfce5426e44a7fd2c3d9fcb2bd,
         type: 3}
