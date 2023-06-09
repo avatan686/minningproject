@@ -5307,6 +5307,11 @@ PrefabInstance:
       propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2631949613534796290}
+    - target: {fileID: 1413698153125651673, guid: aa0258dfce5426e44a7fd2c3d9fcb2bd,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2377753100855105979, guid: aa0258dfce5426e44a7fd2c3d9fcb2bd,
         type: 3}
       propertyPath: m_IsKinematic
