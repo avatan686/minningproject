@@ -10,7 +10,7 @@ public class DomeAndPlayerTeleport: MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        thePlayer.transform.position = new Vector3 (200f,28f,-270f);
+        thePlayer.transform.position = new Vector3 (200f,25f,-270f);
         theDome.transform.position = teleportTarget.transform.position;
     }
 }
