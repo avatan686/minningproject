@@ -16,7 +16,8 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 1
     motionNodeName: 
-    rigImportErrors: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftUpperLeg' not found\n"
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -24,7 +25,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -109,7 +110,172 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: ExcavatorAnimation(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface205
+      parentName: ExcavatorAnimation(Clone)
+      position: {x: -0.02544588, y: 0.05778918, z: 0.17680706}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform42
+      parentName: polySurface205
+      position: {x: 0.210129, y: -0.057486795, z: -0.17036475}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface206
+      parentName: ExcavatorAnimation(Clone)
+      position: {x: -0.015282707, y: 0.05712327, z: 0.175438}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform43
+      parentName: polySurface206
+      position: {x: 0.19996582, y: -0.05682088, z: -0.16899571}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ex_Base
+      parentName: ExcavatorAnimation(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface208
+      parentName: ExcavatorAnimation(Clone)
+      position: {x: -0.06112402, y: 0.047192685, z: -0.024396963}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface278
+      parentName: polySurface208
+      position: {x: 0.24580713, y: -0.0468903, z: 0.030839268}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform39
+      parentName: polySurface278
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface279
+      parentName: polySurface208
+      position: {x: 0.24580713, y: -0.0468903, z: 0.030839268}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform40
+      parentName: polySurface279
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform38
+      parentName: polySurface208
+      position: {x: 0.24580713, y: -0.0468903, z: 0.030839268}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface216
+      parentName: ExcavatorAnimation(Clone)
+      position: {x: -0.016423415, y: 0.028752377, z: -0.022313412}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform41
+      parentName: polySurface216
+      position: {x: 0.20110652, y: -0.028449992, z: 0.02875572}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ex_Arm_A
+      parentName: ExcavatorAnimation(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ex_Arm_B
+      parentName: ExcavatorAnimation(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ex_Wheels
+      parentName: ExcavatorAnimation(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ex_Scoop
+      parentName: ExcavatorAnimation(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ex_Root_Ctrl_Grp
+      parentName: ExcavatorAnimation(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ex_Root_Ctrl
+      parentName: Ex_Root_Ctrl_Grp
+      position: {x: -0.017582826, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ex_Base_Ctrl_Grp
+      parentName: Ex_Root_Ctrl
+      position: {x: 0.017582826, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ex_Base_Ctrl
+      parentName: Ex_Base_Ctrl_Grp
+      position: {x: -0.017582826, y: 0.039374605, z: 0}
+      rotation: {x: -0, y: -0, z: 0.9195939, w: 0.39287037}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ex_Arm_Ctrl_A_Grp
+      parentName: Ex_Base_Ctrl
+      position: {x: 0.017582826, y: -0.039374605, z: 0}
+      rotation: {x: 0.23643187, y: 0.24712187, z: -0.81008, w: 0.4762365}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ex_Arm_Ctrl_A
+      parentName: Ex_Arm_Ctrl_A_Grp
+      position: {x: -0.017582826, y: 0.069262385, z: 0.01599732}
+      rotation: {x: -0.2485537, y: -0.25979176, z: 0.8516126, w: 0.3814252}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ex_Arm_Ctrl_B_Grp
+      parentName: Ex_Arm_Ctrl_A
+      position: {x: 0.017582826, y: -0.069262385, z: -0.01599732}
+      rotation: {x: 0.3717177, y: 0.43479732, z: -0.27751985, w: 0.77185494}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ex_Arm_Ctrl_B
+      parentName: Ex_Arm_Ctrl_B_Grp
+      position: {x: -0.027395558, y: 0.15441547, z: 0.20523225}
+      rotation: {x: -0.5846257, y: -0.68383324, z: 0.43647283, w: 0.008743762}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ex_Arm_Ctrl_C_Grp
+      parentName: Ex_Arm_Ctrl_B
+      position: {x: 0.027395558, y: -0.15441547, z: -0.20523225}
+      rotation: {x: 0.01169118, y: 0.7996591, z: -0.6000979, w: 0.017067593}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ex_Arm_Ctrl_C
+      parentName: Ex_Arm_Ctrl_C_Grp
+      position: {x: -0.02230584, y: 0.049365643, z: 0.25256512}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Root_Jnt
+      parentName: ExcavatorAnimation(Clone)
+      position: {x: -0.017582826, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ex_Base_Jnt
+      parentName: Root_Jnt
+      position: {x: -0, y: 0.039374605, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ex_Arm_Jnt_A
+      parentName: Ex_Base_Jnt
+      position: {x: -0, y: 0.029887779, z: 0.01599732}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ex_Arm_Jnt_B
+      parentName: Ex_Arm_Jnt_A
+      position: {x: -0.007318927, y: 0.08543609, z: 0.19117661}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ex_Arm_Jnt_C
+      parentName: Ex_Arm_Jnt_B
+      position: {x: -0, y: -0.10734146, z: -0.0014782714}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -120,13 +286,13 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0

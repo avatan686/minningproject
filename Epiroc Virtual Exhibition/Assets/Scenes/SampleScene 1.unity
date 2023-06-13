@@ -5013,6 +5013,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5997085833483276785}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1225579436 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4987712457648383753, guid: aa534dd24fe5f474695501070cdbc6a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 7921720019707519681}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1225579438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225579436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e94eb2dd1c391254abbb637ab089c85b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myAnimationController: {fileID: 0}
 --- !u!4 &1226690797 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6968713690312101649, guid: 732f7239441721c46baf5302a30fde43,
@@ -36838,7 +36857,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -80397,6 +80416,11 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1969263702}
+    - target: {fileID: 2892103815446852776, guid: aa534dd24fe5f474695501070cdbc6a4,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4268426023524523775, guid: aa534dd24fe5f474695501070cdbc6a4,
         type: 3}
       propertyPath: m_InteractionManager
@@ -80407,6 +80431,11 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1969263702}
+    - target: {fileID: 5276593003042417889, guid: aa534dd24fe5f474695501070cdbc6a4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7263403201648890824, guid: aa534dd24fe5f474695501070cdbc6a4,
         type: 3}
       propertyPath: m_RootOrder
@@ -80487,6 +80516,11 @@ PrefabInstance:
       propertyPath: thePlayer
       value: 
       objectReference: {fileID: 1423701826}
+    - target: {fileID: 8126772202785409186, guid: aa534dd24fe5f474695501070cdbc6a4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9096821339303054299, guid: aa534dd24fe5f474695501070cdbc6a4,
         type: 3}
       propertyPath: m_Name
